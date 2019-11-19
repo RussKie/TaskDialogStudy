@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp5.0</TargetFramework>
+    <!--<UseWindowsForms>true</UseWindowsForms>-->
+    <NullableReferenceTypes>true</NullableReferenceTypes>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Accessibility">
+      <HintPath>..\bin\Accessibility.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Common">
+      <HintPath>..\bin\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Extensions">
+      <HintPath>..\bin\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <HintPath>..\bin\System.Windows.Forms.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
