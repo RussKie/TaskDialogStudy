@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TaskDialogStudy
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
         }
@@ -30,8 +30,9 @@ namespace TaskDialogStudy
 
         private void button2_Click(object sender, EventArgs e)
         {
-            // 2. Create a simple task dialog with custom buttons
-
+            // 2. Create a task dialog with
+            //    a. checkbox "Do not show again"
+            //    b. footer with a hyperlink (that navigates to https://dot.net/)
             var taskDialog = new TaskDialog();
 
             // write code here...
@@ -41,10 +42,7 @@ namespace TaskDialogStudy
 
         private void button3_Click(object sender, EventArgs e)
         {
-            // 3. Create a simple task dialog 
-            //    a. a custom content,
-            //    b. a verification text, and
-            //    c. a footer with a help link (e.g. go to https://dot.net/)
+            // 3. Create a simple task dialog with custom buttons
 
             var taskDialog = new TaskDialog();
 
@@ -66,7 +64,7 @@ namespace TaskDialogStudy
 
         private void button5_Click(object sender, EventArgs e)
         {
-            // 5. Create a simple self-closing task dialog with a progress bar
+            // 5. Create a self-closing task dialog with a progress bar
 
             var taskDialog = new TaskDialog();
 
