@@ -19,13 +19,7 @@ namespace TaskDialogStudy
 
         private void button1_Click(object sender, EventArgs e)
         {
-            // 1. Create a simple task dialog
-
-            var taskDialog = new TaskDialog();
-
-            // write code here...
-
-            taskDialog.ShowDialog(this);
+            // 1. Create a simple task dialog using TaskDialog
         }
 
         private void button2_Click(object sender, EventArgs e)
