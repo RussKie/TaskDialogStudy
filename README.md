@@ -8,14 +8,13 @@ The example is used to assert quality, clarity and useability of the TaskDialog 
 
     ![exercise1](./images/exercise1.png)
 
-2. Create a simple task dialog with custom buttons
+2. Create a task dialog with
+    * a checkbox "Do not show again"
+    * a footer with a hyperlink (that navigates to https://dot.net/)
 
     ![exercise2](./images/exercise2.png)
 
-3. Create a simple task dialog with 
-    * a custom content,
-    * a verification text, and
-    * a footer with a help link (e.g. go to https://dot.net/)
+3. Create a task dialog with custom buttons
 
     ![exercise3](./images/exercise3.png)
 
@@ -24,7 +23,7 @@ The example is used to assert quality, clarity and useability of the TaskDialog 
     ![exercise4](./images/exercise4.png)
 
 5. Create a simple self-closing task dialog with a progress bar
-    
+
     ![exercise5](./images/exercise5.gif)
 
 6. Implement a multi page task dialog:
