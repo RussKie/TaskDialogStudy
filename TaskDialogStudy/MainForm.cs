@@ -19,7 +19,9 @@ namespace TaskDialogStudy
 
         private void button1_Click(object sender, EventArgs e)
         {
-            // 1. Create a simple task dialog using TaskDialog
+            // 1. Create a simple task dialog using TaskDialog class
+            // write code here...
+
         }
 
         private void button2_Click(object sender, EventArgs e)
